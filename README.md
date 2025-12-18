@@ -42,7 +42,7 @@ phishing-website-detector/
 │
 ├── venv/ # Virtual environment (ignored by Git)
 └── pycache/ # Python cache (ignored by Git)
-
+```
 
 ## ⚙️ Installation & Setup
 
