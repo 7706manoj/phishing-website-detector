@@ -24,25 +24,25 @@ The application uses a trained ML model and provides real-time predictions throu
 ---
 
 ## 📂 Project Structure
+```bash
 phishing-website-detector/
 │
 ├── app.py # Main Flask application
 ├── requirements.txt # Python dependencies
 ├── README.md # Project documentation
 │
-├── models/ # Machine learning models
+├── models/
 │ ├── model.pkl # Trained ML model
 │ └── vectorizer.pkl # URL vectorizer
 │
-├── templates/ # HTML templates
+├── templates/
 │ └── index.html # Main web page
 │
-├── static/ # Static files (CSS, JS) 
+├── static/ # CSS, JS files
 │
 ├── venv/ # Virtual environment (ignored by Git)
-└── pycache/ # Python cache files (ignored by Git)
+└── pycache/ # Python cache (ignored by Git)
 
----
 
 ## ⚙️ Installation & Setup
 
